@@ -1,8 +1,13 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
 .promo {
     border: 1px solid #d2d2d2;
     box-sizing: border-box;
     overflow: hidden;
     padding: 0;
+    height: 94%;
 }
 .promo .field-promotext {
     padding: 10px 0;
