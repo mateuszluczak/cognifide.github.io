@@ -12,6 +12,10 @@
         width: 33.3%;
         height: 485px;
     }
+    
+    #footer .col-md-4 {
+        height: auto;
+    }
 }
 
 .promo {
