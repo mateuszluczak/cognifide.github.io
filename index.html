@@ -20,10 +20,10 @@
 
     <script>
         $(function () {
-            $("#footer").load("includes/footer.html");
-        });
-        $(function () {
             $("#navigation").load("includes/navigation.html");
+            $("#footer").load("includes/footer.html", function (html) {
+                $(this).html(html.replace(/%%YEAR%%/g, new Date().getFullYear()));
+            });
         });
     </script>
 </head>
